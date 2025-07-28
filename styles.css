@@ -22,13 +22,13 @@ body {
     background-color: white;
     display:flex;
     height: 85%;
-    width: 100%;
+    width: 1100px;
     margin: 0;
     padding: 0;
 }
 
 .images {
-    width: 40%;
+    width: 60%;
     height: 100%;
     font-family:  Arial;
     font-size: 12px;
@@ -99,7 +99,6 @@ label {
 
 form {
     background-color: white;
-    width: 100%;
     padding: 20px 40px;
     font-size: 10px;
     box-shadow: 2px 0px 10px rgb(195, 193, 193);
