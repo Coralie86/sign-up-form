@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Document</title>
+</head>
+<body >
+    <div class="container">
+        <div class="images">
+            <img id="feuilles"  src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="odinLogo">
+                <img id="odin" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" >
+                <p>ODIN</p>
+            </div>
+            <p>Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+        </div>
+        <div class="textSide">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>
+            Sign up <em>now</em> you want to.<br>
+            <br>
+            You <em>know</em> you want to.</p>
+
+            <form action="example.com/path" method="post">
+                <legend>Let's do this!</legend>
+                <div class="inputs">
+                    <div class="leftInputs">
+                        <label for="firstName"><span>FIRST NAME</span></label>
+                        <input type="text" id="firstName" name="firstName"><br>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" minlength="5" maxlength="12" required><br>                        
+                    </div>
+                    <div class="rightInputs">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName"><br>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone"><br>
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" minlength="5" maxlength="12" required><br>                        
+                    </div>
+                </div>
+            </form>
+            <div class="button">
+                <button type="submit">Create Account</button>
+            </div>
+            <p>Already have an acount? <a href="">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>
